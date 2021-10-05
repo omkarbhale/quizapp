@@ -1,0 +1,32 @@
+
+.question {
+    margin-top: 5vh;
+}
+
+button {
+    font-size: large;
+    padding: 20px;
+    width: 50%;
+    border: 0;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: rgba(21,26,48);
+    border: 1px solid gray;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.correct {
+    background-color: rgb(38, 204, 38);
+}
+
+.wrong {
+    background-color: rgb(204, 44, 44);
+}
